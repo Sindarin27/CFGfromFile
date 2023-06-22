@@ -4,7 +4,7 @@ Generate a Control Flow Graph from a simple-to-write text document. Gives direct
 
 ## Input
 
-Input should consist of two types of lines: `start [name]`, written when the function `[name]` is called, and `return`, written when the current function returns.
+Input should consist of two types of lines: `start [name]`, written when the function `[name]` is called, and `return [name]`, written when the function `[name]` returns. Lines not starting with `start` or `return` will be ignored, as well as any additional information after the name of the function.
 
 ### Example input
 ```
